@@ -30,6 +30,8 @@ The firewall processes Ethernet frames through a pipelined architecture, where e
 5.  **Check Rules:** This module contains the firewall's decision-making logic. It compares the extracted fields from the Packet Analyzer against a hardcoded rule table to decide whether to `ALLOW` or `BLOCK` the packet.
 6.  **FIFO:** An asynchronous FIFO buffer that temporarily stores the entire packet while the `Check Rules` and `FCS` blocks complete their evaluation. Based on the final decision, it forwards the packet to an "allowed" or "blocked" data output.
 
+![Stateless Firewall Block Diagram](./docs/BlockDiagram.png)
+
 ---
 
 ### Technology Stack
