@@ -1,0 +1,46 @@
+# Quartus-generated files
+# ========================
+
+# Project files
+*.qpf
+*.qsf
+*.qws
+*.bak
+
+# Output directories
+output_files/
+db/
+incremental_db/
+greybox_tmp/
+timing/
+
+# Report files
+*.rpt
+*.summary
+*.htm
+*.html
+*.txt
+*.chg
+*.log
+
+# Simulation files (ModelSim/Questa)
+# ===================================
+simulation/
+*.wlf
+*.vcd
+*.do
+transcript
+wlf*.*
+work/
+*~
+
+# Other generated files
+# =====================
+c5_pin_model_dump.txt
+*.qar
+*.ipregen.log
+*.csv
+*.sof
+*.pof
+*.jdi
+*.sld
